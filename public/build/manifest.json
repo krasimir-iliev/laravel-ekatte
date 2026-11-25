@@ -1,0 +1,89 @@
+{
+  "resources/fonts/PTSans-Bold.woff": {
+    "file": "assets/PTSans-Bold-mAb_CBPK.woff",
+    "src": "resources/fonts/PTSans-Bold.woff"
+  },
+  "resources/fonts/PTSans-Bold.woff2": {
+    "file": "assets/PTSans-Bold-THvJT_3H.woff2",
+    "src": "resources/fonts/PTSans-Bold.woff2"
+  },
+  "resources/fonts/PTSans-BoldItalic.woff": {
+    "file": "assets/PTSans-BoldItalic-CdvdCWpS.woff",
+    "src": "resources/fonts/PTSans-BoldItalic.woff"
+  },
+  "resources/fonts/PTSans-BoldItalic.woff2": {
+    "file": "assets/PTSans-BoldItalic-DsZRWS51.woff2",
+    "src": "resources/fonts/PTSans-BoldItalic.woff2"
+  },
+  "resources/fonts/PTSans-Italic.woff": {
+    "file": "assets/PTSans-Italic-_Cz893wI.woff",
+    "src": "resources/fonts/PTSans-Italic.woff"
+  },
+  "resources/fonts/PTSans-Italic.woff2": {
+    "file": "assets/PTSans-Italic-B1mvBnln.woff2",
+    "src": "resources/fonts/PTSans-Italic.woff2"
+  },
+  "resources/fonts/PTSans-Regular.woff": {
+    "file": "assets/PTSans-Regular-BBWEI1Lc.woff",
+    "src": "resources/fonts/PTSans-Regular.woff"
+  },
+  "resources/fonts/PTSans-Regular.woff2": {
+    "file": "assets/PTSans-Regular-BDc55U38.woff2",
+    "src": "resources/fonts/PTSans-Regular.woff2"
+  },
+  "resources/fonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-DtZKBM2a.ttf",
+    "src": "resources/fonts/fa-brands-400.ttf"
+  },
+  "resources/fonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-C99Yv4gD.woff2",
+    "src": "resources/fonts/fa-brands-400.woff2"
+  },
+  "resources/fonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-BMFokQJ2.ttf",
+    "src": "resources/fonts/fa-regular-400.ttf"
+  },
+  "resources/fonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-OOsPf1xj.woff2",
+    "src": "resources/fonts/fa-regular-400.woff2"
+  },
+  "resources/fonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-DM0teJdg.ttf",
+    "src": "resources/fonts/fa-solid-900.ttf"
+  },
+  "resources/fonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-DAI24fNt.woff2",
+    "src": "resources/fonts/fa-solid-900.woff2"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CTgabn5y.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-h38axqrZ.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/sass/app.scss",
+    "isEntry": true,
+    "assets": [
+      "assets/PTSans-BoldItalic-DsZRWS51.woff2",
+      "assets/PTSans-BoldItalic-CdvdCWpS.woff",
+      "assets/PTSans-Bold-THvJT_3H.woff2",
+      "assets/PTSans-Bold-mAb_CBPK.woff",
+      "assets/PTSans-Italic-B1mvBnln.woff2",
+      "assets/PTSans-Italic-_Cz893wI.woff",
+      "assets/PTSans-Regular-BDc55U38.woff2",
+      "assets/PTSans-Regular-BBWEI1Lc.woff",
+      "assets/fa-brands-400-C99Yv4gD.woff2",
+      "assets/fa-brands-400-DtZKBM2a.ttf",
+      "assets/fa-regular-400-OOsPf1xj.woff2",
+      "assets/fa-regular-400-BMFokQJ2.ttf",
+      "assets/fa-solid-900-DAI24fNt.woff2",
+      "assets/fa-solid-900-DM0teJdg.ttf"
+    ]
+  }
+}

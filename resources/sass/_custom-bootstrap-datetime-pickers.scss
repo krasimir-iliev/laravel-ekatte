@@ -1,0 +1,51 @@
+.datepicker,
+.datetimepicker {
+    width: 260px;
+    padding: 5px;
+    border-radius: 0.3rem;
+
+    table {
+        width: 100%;
+    }
+
+    th,
+    td {
+        width: 35px;
+        height: 35px;
+        border-radius: 3px;
+        font-weight: normal;
+    }
+
+    th.switch {
+        width: auto;
+    }
+
+    .prev,
+    .next {
+        font-size: 0;
+        color: transparent;
+
+        span {
+            display: none;
+        }
+
+        &::before {
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            font-style: normal;
+            font-variant: normal;
+            font-size: 0.9rem;
+            line-height: 1;
+            text-rendering: auto;
+            color: #212529;
+        }
+    }
+
+    .prev::before {
+        content: "\f104";
+    }
+
+    .next::before {
+        content: "\f105";
+    }
+}

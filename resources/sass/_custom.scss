@@ -1,0 +1,123 @@
+.inset-0 {
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+}
+
+.collapsing.width {
+    width: 0;
+    height: auto;
+    transition: width .35s ease;
+}
+
+#panel-side-navbar {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 250px;
+    height: 100%;
+}
+
+#panel-side-nav-group>ul>li {
+    border-bottom: 1px solid #dee2e6;
+}
+
+#panel-side-nav-group li li {
+    border-top: 1px solid #dee2e6;
+}
+
+#panel-side-nav-group li li a {
+    padding-left: 2rem;
+}
+
+#panel-side-nav-group li li li a {
+    padding-left: 3rem;
+    padding-right: 0;
+}
+
+#panel-side-nav-group .nav-link:hover,
+#panel-side-nav-group .nav-link.active {
+    background-color: #eee;
+}
+
+.dark-theme {
+    background-color: #f5f5f5;
+
+    .navbar.bg-dark {
+        background-color: #324148 !important;
+    }
+
+    #sideNavbarContent {
+        background-color: #263238 !important;
+    }
+
+    #panel-side-nav-group li li {
+        border-top: 1px solid #3c474c;
+    }
+
+    .navbar.border-bottom,
+    #panel-side-navbar .border-bottom,
+    #panel-side-nav-group>ul>li {
+        border-bottom: 1px solid #3c474c !important;
+    }
+
+    #panel-side-navbar .form-control {
+        color: #bbb;
+        border-color: #3c474c;
+        background-color: #2c373c;
+    }
+
+    #panel-side-navbar .form-control:focus {
+        border-color: #4c575c;
+    }
+
+    #panel-side-navbar .has-clear input:focus+.input-group-append .btn-clear {
+        border-color: #4c575c;
+    }
+
+    #panel-side-navbar .input-group-append .btn-clear {
+        color: #6c757d;
+        border-color: #3c474c;
+        background-color: #2c373c;
+    }
+
+    #panel-side-nav-group .nav-link {
+        color: hsla(0, 0%, 100%, .5);
+    }
+
+    #panel-side-nav-group .nav-link:focus,
+    #panel-side-nav-group .nav-link:hover {
+        color: hsla(0, 0%, 100%, .75);
+    }
+
+    #panel-side-nav-group .nav-link[aria-expanded="true"],
+    #panel-side-nav-group .nav-link.active {
+        color: #fff;
+    }
+
+    #panel-side-nav-group .nav-link:hover,
+    #panel-side-nav-group .nav-link.active {
+        background-color: transparent;
+    }
+
+    #panel-side-nav-group li li .nav-link:hover,
+    #panel-side-nav-group li li .nav-link.active {
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+
+    #panel-side-nav-group .plus-minus-rotate::after,
+    #panel-side-nav-group .plus-minus-rotate::before {
+        background-color: #3c474c;
+    }
+}
+
+.modal-open main {
+    overflow: hidden !important;
+}
+
+@include media-breakpoint-down(sm) {
+    main.blur {
+        filter: blur(1px);
+        opacity: .5
+    }
+}
